@@ -5,14 +5,7 @@ Created on Mon Mar 14 09:44:32 2016
 @author: jk
 """
 
-import urlparse
 import os
-import urllib2
-import re
-import requests
-import os
-import json
-import time
 
 #==============================================================================
 #   create a sub folder

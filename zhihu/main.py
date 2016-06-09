@@ -10,10 +10,9 @@ import os
 import urllib2
 import re
 import requests
-import os
 import json
 import time
-import tools
+from utils import tools
 
 #==============================================================================
 #   person information
@@ -253,7 +252,7 @@ p = zhihu_profile('https://www.zhihu.com/people/qiao-josua')
 #p.print_info(True)
 #p.get_all_comments_pic()    
 
-q = zhihu_comments('https://www.zhihu.com/question/29298363')
+#q = zhihu_comments('https://www.zhihu.com/question/29298363')
 #q.get_ques_photo()
 #q.get_answer_authors()
     
